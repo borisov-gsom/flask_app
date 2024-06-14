@@ -111,7 +111,7 @@ And the result was:
 ```
 sudo apt-get update 
 ```
-2. Install python virtual environment
+2. Install python pip
 ```
 sudo apt install python3-pip
 ```
