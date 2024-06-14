@@ -172,6 +172,7 @@ sudo ufw allow 5444
 ```
 docker run --network host -d borisovgsom/gsom_e2e:v.0.1
 ```
+
 Working example:
 
 ![Postman test API](images/test_postman.png)
