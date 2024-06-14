@@ -160,11 +160,15 @@ CMD python3 app.py
 ```
 ssh <login>@<your_vm_address>
 ```
-2. Open the port:
+2. Build container:
+```
+docker build -t borisovgsom/gsom_e2e:v.0.1 .
+```
+3. Open the port:
 ```
 sudo ufw allow 5444
 ```
-3. Run the container:
+4. Run the container:
 ```
 docker run --network host -d borisovgsom/gsom_e2e:v.0.1
 ```
